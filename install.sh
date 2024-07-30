@@ -7,7 +7,7 @@ echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft
 rm -f packages.microsoft.gpg
 #install packages
 sudo apt update
-sudo apt install fonts-hack-ttf gnome-shell gnome-terminal timeshift gnome-tweaks flatpak zsh transmission libreoffice code apt-transport-https
+sudo apt install fonts-hack-ttf gnome-shell gnome-terminal timeshift gnome-tweaks flatpak zsh transmission libreoffice code apt-transport-https gnome-system-monitor wireguard openresolv
 #install flathub apps 
 sudo flatpak install flathub com.mattjakeman.ExtensionManager
 sudo flatpak install flathub io.gitlab.adhami3310.Impression

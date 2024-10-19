@@ -9,3 +9,5 @@ rm -f packages.microsoft.gpg
 #install packages
 sudo apt kde-plasma-desktop install fonts-hack-ttf  timeshift  flatpak zsh transmission libreoffice code apt-transport-https wireguard openresolv -y
 #install flathub apps 
+flatpak install flathub org.libretro.RetroArch
+flatpak install flathub org.kde.isoimagewriter
